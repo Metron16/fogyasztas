@@ -52,3 +52,9 @@ autok.garazs = function(utca)
 }
 
 autok.garazs("Széchenyi István")
+
+for(let i in autok)
+{
+    console.log(i)
+    // console.log(i + " : " + autok[i]) --> Ez a verzió leírja a kulcshoz rendelt értéket is. Ezt akartam aktívként hagyni, de a metódussal ellátott kulcsoknál kíírja az egész kódot, azt meg nem találtam a legszebb megoldásnak, de az automarka, evjarat kulcsoknál jól néz ki.
+}
