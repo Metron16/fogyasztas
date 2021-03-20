@@ -16,3 +16,9 @@ while(tankolas < 1 || tankolas > 50)
     tankolas = prompt("Hány litert tankoltál?")
     
 }
+
+var autok = 
+{
+    evjarat: 2004,
+    automarka: "Mazda"
+};
