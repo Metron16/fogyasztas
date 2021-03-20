@@ -50,3 +50,5 @@ autok.garazs = function(utca)
 {
     console.log(this.automarka + " garázsa " + utca + " utcában található.")
 }
+
+autok.garazs("Széchenyi István")
