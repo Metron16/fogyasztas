@@ -28,3 +28,5 @@ autok.fogyaszt = function()
 {
     console.log(this.evjarat + "-es évjáratú " + this.automarka + " fogyasztása: " + x + " liter/km.")
 }
+
+autok.fogyaszt()
