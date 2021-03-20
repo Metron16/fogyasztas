@@ -17,8 +17,14 @@ while(tankolas < 1 || tankolas > 50)
     
 }
 
-var autok = 
+let autok = 
 {
     evjarat: 2004,
     automarka: "Mazda"
 };
+
+let x = (tankolas/km).toFixed(1)
+autok.fogyaszt = function()
+{
+    console.log(this.evjarat + "-es évjáratú " + this.automarka + " fogyasztása: " + x + " liter/km.")
+}
