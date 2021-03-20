@@ -7,7 +7,7 @@ do
     //console.log(szam_e) 
     //console.log(km)
 
-} while(!szam_e || km > 1000)
+} while(!szam_e || km > 1000)   // &&-sel valamiért nem akart jó lenni.
 
  
 let tankolas = 0
@@ -23,10 +23,15 @@ let autok =
     automarka: "Mazda"
 };
 
-let x = (tankolas/km).toFixed(1)
+let x = (tankolas/km).toFixed(3)
 autok.fogyaszt = function()
 {
     console.log(this.evjarat + "-es évjáratú " + this.automarka + " fogyasztása: " + x + " liter/km.")
 }
 
 autok.fogyaszt()
+
+if(tankolas > 20)
+{
+    console.log("Nem sajnálod az üzemanyagot!")
+}
