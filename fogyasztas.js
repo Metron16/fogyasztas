@@ -8,3 +8,11 @@ do
     //console.log(km)
 
 } while(!szam_e || km > 1000)
+
+ 
+let tankolas = 0
+while(tankolas < 1 || tankolas > 50)
+{
+    tankolas = prompt("Hány litert tankoltál?")
+    
+}
